@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+    #url = git://github.com/trybeingarun/WebDevelopmentTraining.git
+    #git@github.com:trybeingarun/WebDevelopmentTraining.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[user]
+	name = arunkn
+	email = trybeingarun@yahoo.co.in
+[github]
+	user = trybeingarun
+	token = 08ad94a20f7ea39a33afa0b62c69cc2c

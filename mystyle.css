@@ -1,0 +1,9 @@
+.zebra {
+    background-color: #dddddd;
+    color: #666666;
+}
+
+#disclaimer {
+    background-color: 'transparent';
+    color: red;
+}
