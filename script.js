@@ -16,3 +16,10 @@ $(function () {
         }
     })
 });
+
+$(function () {
+    $('<p>A new paragraph</p>').addClass('new').insertAfter('#disclaimer');
+    $('<strong>START</strong>').prependTo('#disclaimer');
+    $('<strong>END</strong>').appendTo('#disclaimer');
+   $('#no-script').remove();
+});
